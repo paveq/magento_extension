@@ -1,8 +1,8 @@
-src/app/code/community/Zendesk/Zendesk                            app/code/community/Zendesk/Zendesk
+src/app/code/community/Zendesk/Zendesk/*                          app/code/community/Zendesk/Zendesk
 src/app/design/adminhtml/default/default/layout/zendesk.xml       app/design/adminhtml/default/default/layout/zendesk.xml
-src/app/design/adminhtml/default/default/template/zendesk         app/design/adminhtml/default/default/template/zendesk
+src/app/design/adminhtml/default/default/template/zendesk/*       app/design/adminhtml/default/default/template/zendesk
 src/app/design/frontend/base/default/layout/zendesk.xml           app/design/frontend/base/default/layout/zendesk.xml
-src/app/design/frontend/base/default/template/zendesk             app/design/frontend/base/default/template/zendesk
+src/app/design/frontend/base/default/template/zendesk/*            app/design/frontend/base/default/template/zendesk
 src/app/etc/modules/Zendesk_Zendesk.xml                           app/etc/modules/Zendesk_Zendesk.xml
 src/app/locale/de_DE/Zendesk_Zendesk.csv                          app/locale/de_DE/Zendesk_Zendesk.csv
 src/app/locale/en_US/Zendesk_Zendesk.csv                          app/locale/en_US/Zendesk_Zendesk.csv
@@ -17,4 +17,4 @@ src/app/locale/pt_BR/Zendesk_Zendesk.csv                          app/locale/pt_
 src/app/locale/ru_RU/Zendesk_Zendesk.csv                          app/locale/ru_RU/Zendesk_Zendesk.csv
 src/app/locale/zh_CN/Zendesk_Zendesk.csv                          app/locale/zh_CN/Zendesk_Zendesk.csv
 src/app/locale/zh_TW/Zendesk_Zendesk.csv                          app/locale/zh_TW/Zendesk_Zendesk.csv
-src/skin/adminhtml/default/default/zendesk                        skin/adminhtml/default/default/zendesk
+src/skin/adminhtml/default/default/zendesk/*                      skin/adminhtml/default/default/zendesk
