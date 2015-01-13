@@ -85,7 +85,9 @@ if($view) {
                                 if($value === null) {
                                     // Attempt to match on a modified column name, which might happen for users in
                                     // particular
-                                    $value = $row[$col['id'] . '_id'];
+                                    if (isset($row[$col['id'] . '_id'])) {
+                                        $value = $row[$col['id'] . '_id'];
+                                    }
                                 }
 
                                 switch($col['id']) {
