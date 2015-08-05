@@ -1,6 +1,7 @@
 <?php
+
 /**
- * Copyright 2012 Zendesk.
+ * Copyright 2013 Zendesk.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,14 +16,10 @@
  * limitations under the License.
  */
 
-class Zendesk_Zendesk_Block_Supporttab extends Mage_Core_Block_Template
-{
-    protected function _toHtml()
-    {
-        if(!Mage::getStoreConfig('zendesk/features/feedback_tab_code_active')) {
-            return '';
-        }
+class Zendesk_Zendesk_Block_Adminhtml_Dashboard_Tab_Tickets_Grid_Renderer_Type extends Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Abstract {
 
-        return Mage::getStoreConfig('zendesk/features/feedback_tab_code');
+    public function render(Varien_Object $row) {
+        return ucfirst($row['type']);
     }
+
 }

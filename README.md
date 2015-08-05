@@ -6,7 +6,7 @@ This extension makes Zendesk work seamlessly with Magento to enable stores to de
 - Create support tickets without leaving Magento
 - Display relevant support tickets on order & customer dashboards
 - Create support tickets from Contact Us requests
-- Easily add a feedback tab to your site
+- Easily add the [Embeddables](https://www.zendesk.com/embeddables) Web Widget to your site
 
 The latest stable version of the extension can be installed via the [Magento Connect](http://www.magentocommerce.com/magento-connect/catalog/product/view/id/15129/) marketplace.
 
@@ -26,15 +26,8 @@ The API can be enabled in the Zendesk settings page in the Magento admin panel. 
 
 ### Single Sign-on (SSO)
 
-* Admins & Agents
-
-  Remote login URL: http://your_site_base_url/admin/zendesk/authenticate
-  Remote logout URL: http://your_site_base_url/admin/zendesk/logout
-
-* End-user
-
-  Remote login URL: http://your_site_base_url/zendesk/sso/login
-  Remote logout URL: http://your_site_base_url/zendesk/sso/logout
+  **Remote login URL** http://your_site_base_url/zendesk/sso/login
+  **Remote logout URL** http://your_site_base_url/zendesk/sso/logout
 
 ### Responses
 
@@ -314,4 +307,4 @@ Please submit bug reports to <a href="https://support.zendesk.com/requests/new">
 
 ## Copyright and License
 
-Copyright 2012, Zendesk Inc. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>.
+Copyright 2012-present, Zendesk Inc. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>.
